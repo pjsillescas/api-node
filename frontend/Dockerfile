@@ -1,5 +1,5 @@
 # Use Node.js as the base image to build the frontend
-FROM node:14 AS build
+FROM node:20 AS build
 
 # Create a working directory
 WORKDIR /usr/src/app

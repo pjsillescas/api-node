@@ -1,5 +1,5 @@
 # Use Node.js as the base image
-FROM node:14
+FROM node:20
 
 # Create a working directory
 WORKDIR /usr/src/app
